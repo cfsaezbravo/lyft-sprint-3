@@ -9,8 +9,11 @@ Colors:
 
 body{
 	margin: 0;
-	font-family: ‘Raleway’, sans-serif;
+	font-family: 'Raleway', serif;
 }
+
+/*Aquí están los estilos de mi navbar*/
+
 
 ul{
 	list-style: none;
@@ -20,13 +23,14 @@ ul{
 	background-color: #E54E79;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 
 
 ul li {
 	display: inline-block;
 	position: relative;
-	display: inline-block;
+	z-index: 1;
 }
 
 ul li a{
@@ -37,6 +41,7 @@ ul li a{
 	text-decoration: none;
 	position: relative;
 	left: 995px;
+	z-index: 1;
 }
 
 li a:hover{
@@ -50,5 +55,68 @@ li a:hover{
     position: inherit;
     left: 135px;
     top: 13px;
+    display: inline-block;
 }
+
+/*Aquí están los estilos de mi header*/
+/*Poner dentro de un div y un width del 100%*/
+
+#primera-imagen{
+	display: inline-block;
+	z-index: 3;
+}
+
+#promo {
+	position: inherit;
+	display: inline-block;
+	width: 100%;
+}
+
+#suscripcion {
+	background-color: #EDE9E2;
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-top: -373px;
+	z-index: 3;
+}
+
+h1 {
+	color: #00B2A9;
+	margin-left: 30px;
+}
+
+h2 {
+	color: #75726C;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+input {
+	color: grey;
+	margin: 30px;
+	display: block;
+  	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+  	padding: 10px 92px 10px 0px;
+  	border: 0 solid #b7b7b7;
+  	border-bottom-width: 3px;
+  	font: normal 16px/normal "Raleway", serif;
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	background: #EDE9E2;
+}
+
+#driver {
+	background-color: #E56385;
+	margin-top: 13px;
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 30px;
+	margin-right: 26px;
+}
+
 
