@@ -177,5 +177,10 @@ h1 {
 
 #contenedor-juego {
 	background-color: #EDE9E2;
+	position: absolute;
+	top: 934px;
+	height: 360px;
+	width: 1046px;
+	left: 174px;
 }
 
