@@ -6,3 +6,49 @@ Colors:
 #75726C;
 #EDE9E2
 */
+
+body{
+	margin: 0;
+	font-family: ‘Raleway’, sans-serif;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+	position: fixed;
+	width: 100%;
+}
+
+
+ul li {
+	display: inline-block;
+	position: relative;
+	display: inline-block;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+	position: relative;
+	left: 995px;
+}
+
+li a:hover{
+	background-color: #E56385;
+	color: white;
+}
+
+#logo {
+	width: 61px;
+    height: 42px;
+    position: inherit;
+    left: 135px;
+    top: 13px;
+}
+
