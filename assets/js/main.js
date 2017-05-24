@@ -34,7 +34,6 @@ var agregarNumero = function(){
 		alert("Registro realizado con éxito");
 	}
 }
-
 /*Botón driver (le agrego la funcionalidad de dar "click" al boton desde el JS y llamo a la función que va
 a validar el número de teléfono que ingrese*/
 
