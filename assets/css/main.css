@@ -25,6 +25,7 @@ ul{
     width: 100%;
     z-index: 1000;
     margin-left: -14px;
+    top: 0px;
 }
 
 
@@ -82,7 +83,7 @@ li a:hover{
 	position: relative;
 	display: inline-block;
 	float: right;
-	margin-top: 202px;
+	margin-top: -1265px;
 	font-family: 'Raleway', sans-serif;
 	padding-bottom: 60px;
 	padding-top: 22px;
@@ -113,7 +114,7 @@ input {
   	-webkit-box-sizing: content-box;
   	-moz-box-sizing: content-box;
   	box-sizing: content-box;
-  	padding: 10px 92px 10px 0px;
+  	padding: 32px 92px 10px 0px;
   	border: 0 solid #b7b7b7;
   	border-bottom-width: 3px;
   	font: normal 16px/normal "Raleway", serif;
@@ -254,10 +255,12 @@ input {
 
 .caja-final {
 	float: left;
+	clear: left;
 }
 
 .rrss{
 	float: right;
+	clear: right;
 	margin-top: 30px;
 }
 
@@ -272,9 +275,9 @@ input {
 }
 
 #fb {
-	height: 60px;
-    width: 60px;
-    margin-left: -274px;
+	height: 46px;
+    width: 48px;
+    margin-left: -264px;
     display: inline-block;
     margin-top: 0px;
 }
@@ -282,9 +285,34 @@ input {
 #tw {
 	height: 54px;
     width: 54px;
-    margin-left: -270px;
+    margin-left: -266px;
     display: inline-block;
     margin-top: 0px;
 }
+
+#inst {
+	height: 54px;
+    width: 54px;
+    margin-left: 835px;
+    display: inline-block;
+    margin-top: 26px;
+    margin-bottom: -27px;
+}
+
+#abajo{
+	position: relative;
+    background-color: #666666;
+    width: 100%;
+    margin-top: 1456px;
+    height: 36px;
+    z-index: 1000;
+}
+
+#abajo p{
+	margin-left: 175px;
+    margin-top: 9px;
+    position: absolute;
+    font-size: 13px;
+}  
 
 
