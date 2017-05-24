@@ -5,11 +5,6 @@
 var btndriver = document.getElementById("driver");
 var inputNumber = document.getElementById("number");
 
-/*Botón driver (le agrego la funcionalidad de dar "click" al boton desde el JS y llamo a la función que va
-a validar el número de teléfono que ingrese*/
-
-btndriver.addEventListener("click", agregarNumero);
-
 /*Funciones (primero, creo una función expression en la que le demos los parámetros al número, es decir, 
 que los números vayan del 0 al 9 y que su largo sea de mínimo 9 números y máximo 11. Luego le digo: 
 
@@ -39,6 +34,11 @@ var agregarNumero = function(){
 		alert("Registro realizado con éxito");
 	}
 }
+
+/*Botón driver (le agrego la funcionalidad de dar "click" al boton desde el JS y llamo a la función que va
+a validar el número de teléfono que ingrese*/
+
+btndriver.addEventListener("click", agregarNumero);
 
 /*--------------------- Validación de inputs tablero ---------------------*/
 
