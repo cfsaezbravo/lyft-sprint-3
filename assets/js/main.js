@@ -1,3 +1,5 @@
+/* Validando el número de teléfono */
+
 //Variables
 
 var btndriver = document.getElementById("driver");
@@ -12,7 +14,7 @@ var validarTelefono = function(inputNumber){
 		return true;
 	}else{
 		inputNumber.value = "";
-		alert("Debe ingresar un número de teléfono válido con más de 9 dígitos");  
+		alert("Debe ingresar un número de teléfono válido");  
 		inputNumber.focus();  
 		return false; 
 	}
@@ -22,7 +24,7 @@ var agregarNumero = function(){
 	event.preventDefault();
 
 	if(validarTelefono(inputNumber)){
-		alert("Gracias");
+		alert("Registro realizado con éxito");
 	}
 }
 
@@ -30,4 +32,4 @@ var agregarNumero = function(){
 
 btndriver.addEventListener("click", agregarNumero);
 
-
+/*Transformación caja*/
