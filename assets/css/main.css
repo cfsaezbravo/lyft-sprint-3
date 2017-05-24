@@ -87,6 +87,7 @@ li a:hover{
 	padding-bottom: 60px;
 	padding-top: 22px;
 	padding-left: 200px;
+	padding-right: 0px;
 }
 
 #turn {
@@ -142,7 +143,7 @@ input {
   	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
 }
 
-p {
+.parrafo-suscripcion {
 	margin-left: -156px;
     margin-right: 26px;
     font-size: 13px;
@@ -151,7 +152,7 @@ p {
     margin-bottom: -12px;
 }
 
-/*Aquí están los estilos del play whit lyft*/
+/*Aquí están los estilos del play with lyft*/
 
 #play-with-lyft {
 	background-color: #00B2A9;
@@ -167,12 +168,13 @@ p {
 	background-color: #00B2A9;
 	right: 0px;
 	color: #75726C;
+	padding-right: 28px; 
 }
 
 #subtitulo-segunda{
 	background-color: #EDE9E2;
 	text-align: center;
-	padding: 12px;
+	padding: 14px;
 	margin: 50px;
 	width: 100%;
 	margin-left: 0px;
@@ -237,11 +239,43 @@ p {
     margin-bottom: -4px;
 }
 
-#pie {
+/*Aquí están los estilos del footer*/
+
+#cierre {
 	background-color: #75726C;
     position: absolute;
     top: 1257px;
     height: 230px;
     width: 100%;
     left: 0px;
+    color: #EDE9E2;
+    padding-right: 0px;
 }
+
+.caja-final {
+	float: left;
+}
+
+.rrss{
+	float: right;
+	margin-top: 30px;
+}
+.line{
+	background-color: #EDE9E2;
+	height: 3px;
+	width: 100px;
+	margin-right: 168px;
+	margin-top: 50px;
+}
+
+#titulo-final {
+	margin-left: 175px;
+    margin-top: 50px;
+}
+
+.parrafo-final {
+	display: inline-block;
+	margin-left: 175px;
+}
+
+
