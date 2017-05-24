@@ -190,13 +190,13 @@ input {
 	left: 174px;
 }
 
-#coordenada-y {
+#coorY {
 	margin-left: 542px;
 	display: inline-block;
 	width: 355px;
 }
 
-#coordenada-x {
+#coorX {
 	margin-left: 85px;
     display: inline-block;
     margin-top: 57px;
@@ -315,4 +315,11 @@ input {
     font-size: 13px;
 }  
 
+#whatever {
+	display: none;
+}
+
+.caja-nueva {
+  display: hidden;
+}
 

@@ -40,9 +40,70 @@ var agregarNumero = function(){
 	}
 }
 
-/*--------------------- Transformación caja ---------------------*/
+/*--------------------- Validación de inputs tablero ---------------------*/
+
+/*Tomo los valores de los inputs y del botón*/
 
 var btnStart = document.getElementById("start");
+var coorX = document.getElementById("coorX");
+var coorY = document.getElementById("coorY");
+
+/* Al botón le digo que al hacer click, ejecute la función "validacion"*/
+
+btnStart.addEventListener("click", validacion);
+
+/*En esta función tengo: 
+
+	1. Que el "x" cuando entre, sea un número del 0 al 9 y que si el valor
+	que entra es igual a mi variable num, entonces lo acepte.
+	2. Lo mismo con el "y" */
+
+function validacion (){
+var validarX = function (coorX){
+	var num = /^[0-9]$/;
+	if(coorX.value.match(num)){
+		return true;
+	}else{
+		coorX.value="";
+		alert("Ingresa un número válido");
+		return false;
+	}
+};
+
+var validarY = function (coorY){
+	var num = /^[0-9]$/;
+	if(coorY.value.match(num)){
+		return true;
+	}else{
+		coorY.value="";
+		alert("Ingresa un número válido");
+		return false;
+	}
+};
+
+/*Si "x" fue correctamente ingresa e "y" fue correctamente ingresado, entonces
+ingresa los valores*/
+
+if(validarX(coorX)){
+		if(validarY(coorY)){
+			alert("Números ingresados correctamente");
+			/*btnStart.addEventListener("click", hola)
+
+			var hola = function (){
+			var cajaNueva = document.getElementById("contenedor-juego");
+			cajaNueva.setAttribute("class", "caja-nueva");*/
+		}
+	}
+	var agregarNum = function(){
+	event.preventDefault();
+}
+};
+
+
+
+	
+
+
 
 
 
